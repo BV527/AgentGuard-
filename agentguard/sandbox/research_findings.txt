@@ -1,0 +1,24 @@
+# Research Agent Findings
+
+## Lithium Iron Phosphate
+- Energy Density: None
+- Cycle Life: 3000+ cycles
+- Thermal note: thermal stability ~270C
+- Notes: 3000+ cycles, thermal stability ~270C
+
+## NMC 811
+- Energy Density: 250-300 Wh/kg
+- Cycle Life: None
+- Thermal note: None
+- Notes: 250-300 Wh/kg energy density
+
+## Solid-State
+- Energy Density: 400+ Wh/kg
+- Cycle Life: None
+- Thermal note: Non-flammable
+- Notes: 400+ Wh/kg, non-flammable, commercial by 2027
+
+## Key Findings
+- Silicon-anode integration: +20% volumetric capacity
+- Fast-charging: >350 kW DC networks expanding
+- Recycling: >95% material recovery via hydrometallurgy

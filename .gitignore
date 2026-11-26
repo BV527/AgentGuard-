@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local data and generated runtime output
+*.sqlite3
+*.db
+*.log
+agentguard/output/
+output/
+agentguard/sandbox/user_doc.txt
+agentguard/sandbox/analysis_output.txt
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local scratch files
+sandbox/test_files/temp_build.log

@@ -1,0 +1,119 @@
+{
+  "model_type": "XGBClassifier",
+  "dataset_size": 12000,
+  "test_size": 3000,
+  "accuracy": 0.9917,
+  "precision_macro": 0.9947,
+  "precision_weighted": 0.9917,
+  "recall_macro": 0.9776,
+  "recall_weighted": 0.9917,
+  "f1_macro": 0.986,
+  "f1_weighted": 0.9916,
+  "roc_auc": 1.0,
+  "confusion_matrix": {
+    "labels": [
+      "SAFE",
+      "SUSPICIOUS",
+      "MALICIOUS"
+    ],
+    "matrix": [
+      [
+        283,
+        10,
+        0
+      ],
+      [
+        0,
+        2277,
+        1
+      ],
+      [
+        1,
+        13,
+        415
+      ]
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "tool",
+      "importance": 0.2376
+    },
+    {
+      "feature": "resource_type",
+      "importance": 0.1989
+    },
+    {
+      "feature": "authorization",
+      "importance": 0.1903
+    },
+    {
+      "feature": "destination_trust",
+      "importance": 0.046
+    },
+    {
+      "feature": "sequence_length",
+      "importance": 0.0443
+    },
+    {
+      "feature": "agent_role",
+      "importance": 0.0436
+    },
+    {
+      "feature": "suspicious_content_score",
+      "importance": 0.0394
+    },
+    {
+      "feature": "action_frequency",
+      "importance": 0.0392
+    },
+    {
+      "feature": "operation",
+      "importance": 0.0321
+    },
+    {
+      "feature": "data_sensitivity",
+      "importance": 0.0294
+    },
+    {
+      "feature": "historical_anomaly",
+      "importance": 0.0281
+    },
+    {
+      "feature": "external_destination",
+      "importance": 0.0264
+    }
+  ],
+  "class_distribution": [
+    {
+      "class": "SAFE (0)",
+      "count": 1171
+    },
+    {
+      "class": "SUSPICIOUS (1)",
+      "count": 9111
+    },
+    {
+      "class": "MALICIOUS (2)",
+      "count": 1718
+    }
+  ],
+  "anomaly_distribution": [
+    {
+      "range": "0.0 - 0.2 (Normal)",
+      "percentage": 78.5
+    },
+    {
+      "range": "0.2 - 0.5 (Moderate)",
+      "percentage": 14.2
+    },
+    {
+      "range": "0.5 - 0.8 (Suspicious)",
+      "percentage": 5.1
+    },
+    {
+      "range": "0.8 - 1.0 (Anomalous)",
+      "percentage": 2.2
+    }
+  ]
+}

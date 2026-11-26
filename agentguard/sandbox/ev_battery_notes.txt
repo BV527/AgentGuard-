@@ -1,0 +1,17 @@
+AgentGuard Research Notes: EV Battery Chemistry
+
+## Approved Research Dataset
+
+This file contains approved research data accessible to the ResearchAgent.
+
+### Battery Technologies
+1. Lithium Iron Phosphate (LFP): 3000+ cycles, thermal stability ~270C
+2. NMC 811: 250-300 Wh/kg energy density
+3. Solid-State: 400+ Wh/kg, non-flammable, commercial by 2027
+
+### Key Trends
+- Silicon-anode integration: +20% volumetric capacity
+- Fast-charging: >350 kW DC networks expanding
+- Recycling: >95% material recovery via hydrometallurgy
+
+Source: Internal research dataset (approved for ResearchAgent access)
